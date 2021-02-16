@@ -1,3 +1,4 @@
+
 *  {
 box-sizing: border-box;
 margin: 0;
@@ -7,7 +8,6 @@ padding: 0;
 header, article {
   padding: 30px 20px;
 }
-
 :root {
   --colorheader: #2d3142;
   --colorarticle: #d8d5db;
@@ -95,3 +95,40 @@ p {
 .footer p {
   padding: 0px;
 }
+
+@media only screen and (min-width: 500px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 740px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 940px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    display: flex;
+  }
+
+  article {
+    width: 66.666%;
+  }
+
+  aside {
+    width: 33.3333%;
+  }
