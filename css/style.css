@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
 :root {
   --colorheader: #2d3142;
   --colorarticle: #d8d5db;
@@ -31,3 +37,40 @@ h1 {
 footer > p {
   color: white;
 }
+
+@media only screen and (min-width: 500px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 740px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 940px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main {
+    display: flex;
+  }
+
+  article {
+    width: 66.666%;
+  }
+
+  aside {
+    width: 33.3333%;
+  }
