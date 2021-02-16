@@ -60,16 +60,6 @@ h1 {
   margin: auto;
 }
 
-.containerA {
-  /*flex-grow: 2;*/
-  width: 67%;
-}
-
-.containerB {
-  /*flex-grow: 1;*/
-  width: 33%;
-}
-
 ul {
   list-style-type: none;
   padding-left: 20px;
